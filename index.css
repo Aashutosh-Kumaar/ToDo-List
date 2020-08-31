@@ -1,0 +1,132 @@
+*{
+  
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans","Arial Narrow",Arial, sans-serif;
+}
+
+.main_div {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, #20002c,#cbb4d4);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center_div{
+  width: 25%;
+  height: 80vh;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 25px -5px rgba(0,0 0, 0.5);
+  border-radius: 15px;
+
+}
+
+h1 {
+  color: white;
+  background: #8566aa;
+  font-size: 50px;
+  margin-bottom: 10px;
+  padding: 6px 0 2px 0;
+  min-width: 64px;
+  box-sizing: border-box;
+  font-family: "Comfortaa",cursive;
+  font-weight: 500;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+input{
+  text-align: center;
+  height: 30px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 200px;
+  border-bottom: 2px solid #8566aa;
+  outline:none;
+  margin-right:20px;
+  top :10;
+}
+
+.newBtn{
+  width: 50px;
+  height: 55px;
+  background-color: #8566aa !important;
+  color: white !important;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+  border-radius: 50% !important;
+}
+
+.newBtn:hover{
+  color: white !important;
+  background: green !important;
+}
+
+.MuiSvgIcon-root {
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+ol{
+  margin-top: 30px;
+}
+
+ol li{
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #8566aa;
+  text-transform: capitalize;
+  list-style: none;
+
+}
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.todo_style .deleteIcon{
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 50%;
+  margin: 0  15px 0 35px;
+  padding-left: 5px;
+  color:aliceblue;
+  
+  
+}
+.todo_style .deleteIcon:hover{
+  
+  color: crimson;
+ 
+}
+.todo_style .deleteIcon:hover.list_style{
+  color: crimson;
+  
+}
+
+@media(max-width:768px){
+  .center_div{
+    width: 55%
+  }
+}
+
+
